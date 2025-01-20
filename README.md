@@ -1,6 +1,6 @@
-Projeto do curso ORACLE em parceria com a Alura.
+Projeto do curso da ONE em parceria com a Alura - grupo 8.
 
-1° Challenge: criar programa de sorteio de Amigo secreto com as seguintes funcionalidades:
+1° Challenge: criar sistema de sorteio de Amigo secreto com as seguintes funcionalidades:
  
 -Adicionar nomes: Os usuários escreverão o nome de um amigo em um campo de texto e o adicionarão a uma lista visível ao clicar em "Adicionar".
 -Validar entrada: Se o campo de texto estiver vazio, o programa exibirá um alerta solicitando um nome válido.
