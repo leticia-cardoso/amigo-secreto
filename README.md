@@ -24,4 +24,7 @@ A ONE em parceria com a Alura disponibilizaram um curso de programação e na pr
 
 ## Jogo  Amigo Secreto
 
+![Design sem nome](https://github.com/user-attachments/assets/2b95240c-2201-4ca7-80cb-b309717b30af)
+
+
 Para acessar o jogo [clique aqui](https://amigo-secreto-olive-eight.vercel.app/).
