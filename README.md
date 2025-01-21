@@ -1,11 +1,11 @@
-<h1 align="center"> Challende Amigo Secreto -  ONE  & Alura </h1>
+<h1 align="center"> Challenge Amigo Secreto </h1>
 
 
 ## Sobre
-1° Challenge proposto pelo curso de programação na fase inicial do projeto. O objetivo é criar um código em Javascript que ao linkar com o site, realize sorteio dos nomes adicionados. 
+A ONE em parceria com a Alura disponibilizaram um curso de programação e na primeira etapa do curso, foi lançado um desafio para criar um código com Javascript, que pudesse realizar um simulação do sorteio de amigo secreto. 
 
 
-## Tecnologias Utilizadas
+## Linguagens 
 
 - JavaScript
 - HTML
