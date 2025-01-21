@@ -24,4 +24,4 @@ A ONE em parceria com a Alura disponibilizaram um curso de programação e na pr
 
 ## Jogo  Amigo Secreto
 
-Para acessar o jogo [clique aqui]([link](https://amigo-secreto-olive-eight.vercel.app/))
+Para acessar o jogo [clique aqui]([link](https://amigo-secreto-olive-eight.vercel.app/)
