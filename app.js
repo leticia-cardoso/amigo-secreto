@@ -1,7 +1,7 @@
 
 //função adicionar nome
 
-let listaNomes = [];
+let listaNomesNaTela = [];
 
 function adicionarAmigo() 
 {
@@ -11,12 +11,26 @@ let nomeAmigo = document.querySelector("input").value;
         {
         alert('Por favor, insira um nome.');
         } else 
-        {
-            listaNomes.push(nomeAmigo);
-            console.log(listaNomes);  
-        } limparCampo();
+        { 
+            listaNomesNaTela.push(nomeAmigo);
+            console.log(listaNomesNaTela); 
+            listarNomes();
+        }
+        
+        limparCampo();
+        
+        
+} 
+
+//função para mostrar nomes na tela, incrementando o último elemento da listaAmigo
+function listarNomes() 
+{
+    let listaAmigo  = document.getElementById("listaAmigos").innerHTML;  
+    listaAmigo += "<li>"+listaNomesNaTela[listaNomesNaTela.length -1]+"</li>";          
+    document.getElementById("listaAmigos").innerHTML = listaAmigo;  
 
 } 
+
 
 //função limpar campo após digitar o nome
 function limparCampo() 
