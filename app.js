@@ -1,6 +1,3 @@
-
-//função adicionar nome
-
 let listaNomesNaTela = [];
 
 function adicionarAmigo() 
@@ -17,24 +14,42 @@ let nomeAmigo = document.querySelector("input").value;
             listarNomes();
         }
         
-        limparCampo();
-        
-        
+        limparCampo(); 
 } 
 
-//função para mostrar nomes na tela, incrementando o último elemento da listaAmigo
 function listarNomes() 
 {
     let listaAmigo  = document.getElementById("listaAmigos").innerHTML;  
     listaAmigo += "<li>"+listaNomesNaTela[listaNomesNaTela.length -1]+"</li>";          
     document.getElementById("listaAmigos").innerHTML = listaAmigo;  
-
 } 
 
 
-//função limpar campo após digitar o nome
+function sortearAmigo() 
+{
+    let tamanhoLista = listaNomesNaTela.length;
+    let sorteioNumero = Math.floor(Math.random() * tamanhoLista);
+    let amigoSorteado = listaNomesNaTela[sorteioNumero];
+    console.log(sorteioNumero);
+    console.log(tamanhoLista);
+
+    if (listaNomesNaTela == "") 
+        {
+            alert('Nenhum nome adicionado');
+        } else 
+        {
+            let resultadoSorteio = document.getElementById("resultado").innerHTML;
+            resultadoSorteio = "<li>"+"O amigo sorteado é: "+amigoSorteado+"</li>";
+            document.getElementById("resultado").innerHTML = resultadoSorteio;
+            document.getElementById("listaAmigos").innerHTML ="";
+            listaNomesNaTela = [];
+        } 
+} 
+
+
 function limparCampo() 
 {
     nomeAmigo = document.querySelector("input");
     nomeAmigo.value = '';
 }
+
